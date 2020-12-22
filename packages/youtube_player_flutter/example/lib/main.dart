@@ -130,6 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
       },
       player: YoutubePlayer(
         controller: _controller,
+        hidePlayPauseButton: true,
         showVideoProgressIndicator: true,
         progressIndicatorColor: Colors.blueAccent,
         topActions: <Widget>[
